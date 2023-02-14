@@ -19,7 +19,7 @@ class desktop(computer):
         print(self.tab,self.apps)
 class laptop(computer):
     def __init__(self,weight):
-     self.weight= weight
+       self.weight= weight
     def putdata(self):
         self.weight= input("enter lap weight")
     def outdata(self):
